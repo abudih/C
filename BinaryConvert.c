@@ -122,7 +122,9 @@ int main(){
 	char operator;
 
 	while(1){
-		printf("\nPlease enter the binary numbers & operators(Q to quit) : ");
+		printf("\nPlease enter two binary numbers with decimals(such as 11.11 and 11.11)\n"
+				"& operators(addition,subtraction,multiplication and division).\nPlease use spaces "
+				"between the operators and the numbers.  (Press Q to quit) : ");
 
 		scanf("%s", &first_input);
 		if(first_input[0]=='Q'){
